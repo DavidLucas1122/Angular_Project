@@ -1,0 +1,6 @@
+<h2>Resultados para {{ breed }}</h2>
+
+<main class="gallery">
+  <!-- Loop para criar o elemento img para cada imagem -->
+  <img *ngFor="let img of images" [src]="img">
+</main>

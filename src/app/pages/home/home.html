@@ -1,0 +1,17 @@
+<header class="app-header">
+    <h1> Dog Gallery</h1>
+
+</header>
+<div class="fullscreen-container">
+    <div class="form-box">
+        <h1>Encontre seu Cachorro</h1>
+        <p>Digite a raça ou nome do cachorro e descubra imagens fofas!</p>
+
+        <div class="input-group">
+            <input type="text" placeholder="Digite a raça do cachorro" [(ngModel)]="breed">
+
+            <button (click)="search()">Buscar</button>
+
+        </div>
+    </div>
+</div>

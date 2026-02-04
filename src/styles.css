@@ -1,1 +1,144 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body, html {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #6ca0dc, #a0d8f1);
+  }
+  
+  .app-container {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 40px 20px;
+  }
+  
+  .app-header {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #fff;
+  }
+  
+  .app-header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+  }
+  
+  .fullscreen-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .form-box {
+    background: white;
+    padding: 40px 50px;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+    text-align: center;
+    width: 100%;
+    max-width: 450px;
+  }
+  
+  .form-box h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .form-box p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    color: #666;
+  }
+  
+  .input-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .input-group input {
+    flex: 1;
+    padding: 12px 15px;
+    border-radius: 10px;
+    border: 2px solid #6ca0dc;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .input-group input:focus {
+    border-color: #3b7dbf;
+  }
+  
+  .input-group button {
+    padding: 12px 25px;
+    border-radius: 10px;
+    border: none;
+    background-color: #6ca0dc;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .input-group button:hover {
+    background-color: #3b7dbf;
+    transform: translateY(-2px);
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 25px;
+    flex-grow: 1;
+    padding: 50px;
+  }
+
+  h2 {
+    color: white;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  img {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-align: center;
+  }
+  
+  img:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  }
+  
+img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .app-footer {
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+    font-size: 0.9rem;
+    border-top: 1px solid rgba(255,255,255,0.3);
+    margin-top: 40px;
+  }
+  
+ 
+  
