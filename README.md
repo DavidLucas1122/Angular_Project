@@ -13,23 +13,30 @@
 ### Execução no Projeto
 
   A execução do Angular no projeto é feita de maneira muito simples. Dentro do arquivo do seu projeto abra o terminal e comece a criação: 
-
+<br>
 Crie o seu Projeto
 *ng new meu-primeiro-app-angular*
-![comando-projeto](../../../../Pictures/Screenshots/print1.png)
+<br>
+<img width="431" height="55" alt="print1" src="https://github.com/user-attachments/assets/b5b5c9dd-cea0-4b82-8eee-2f732c0e94b4" />
+
 
 Qual sistema de Estilização?
-![Sistema-de-Estilização](../../../../Pictures/Screenshots/print2.png)
+<br>
+<img width="739" height="83" alt="print3" src="https://github.com/user-attachments/assets/0d801bc7-111f-4db0-9891-3da269343e1d" />
 
+<br> <br>
 Deseja habilitar a renderização do lado do servidor (SSR) e a geração de sites estáticos (SSG/pré-renderização)?
 
     - Caso o projeto for pequeno e local escolha a opção "Não"
     - Caso o seu projeto for grande o ideal ele fará uma especie de automatização para os mecanismos de busca SEO
-    
-![SSR e SSG](../../../../Pictures/Screenshots/print3.png)
 
+<img width="739" height="83" alt="print3" src="https://github.com/user-attachments/assets/bcb511e4-4525-496e-90de-9436fc3d1504" />
+
+<br> <br>
 Agentes de IA
-![IA](../../../../Pictures/Screenshots/print3.png)
+<br>
+<img width="646" height="172" alt="print4" src="https://github.com/user-attachments/assets/1cf71997-01b1-48ea-b000-81c4d47cf006" />
+
 
 ### Por que utilizar o Angular?
 
